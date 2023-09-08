@@ -37,5 +37,12 @@ td{
 }
 
 .green {
-  background:rgb(202,245,222);
+  background:rgb(152, 228, 188);
+}
+.coral {
+  background:lightcoral
+}
+
+.dodgerblue{
+  background:dodgerblue
 }

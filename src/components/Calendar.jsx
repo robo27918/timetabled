@@ -22,7 +22,7 @@ const Calendar = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <Event event= "Breakfast at Cafe Nin ☕️" color="blue"/>
                 <td></td>
                 <td></td>
              </tr>
@@ -31,18 +31,7 @@ const Calendar = () => {
                 <td className="time">9 AM</td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td className="time">10 AM</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <Event event = "Breakfast at El Zocalo" color="pink"/>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -75,6 +64,28 @@ const Calendar = () => {
                 <td className="time">12 PM</td>
                 <td></td>
                 <td></td>
+                <Event event="Mercado Jamaica" color="dodgerblue"/>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+             </tr>
+
+             <tr>
+                <td className="time"> 1 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <Event event="Vist Palacio Nacional" color="pink"/>
+                <td></td>
+             </tr>
+
+             <tr>
+                <td className="time">2 PM</td>
+                <td></td>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -83,31 +94,9 @@ const Calendar = () => {
              </tr>
 
              <tr>
-                <td className="time">1 PM</td>
+                <td className="time"> 3 PM</td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td className="time"> 2 PM</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-             </tr>
-
-             <tr>
-                <td className="time">3 PM</td>
-                <td></td>
-                <td></td>
+                <Event event="Visit Xochimilco" color="green"/>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -123,7 +112,7 @@ const Calendar = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <Event event="Omusubi house"color="dodgerblue"/>
              </tr>
 
              <tr>
@@ -131,7 +120,7 @@ const Calendar = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
+                <Event event="Museo Frida Kahlo" color="blue" />
                 <td></td>
                 <td></td>
                 <td></td>
@@ -144,6 +133,17 @@ const Calendar = () => {
                 <td></td>
                 <td></td>
                 <td></td>
+                <td></td>
+                <td></td>
+             </tr>
+
+             <tr>
+                <td className="time">7 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <Event event="Dinner at Mercaderes" color ="green"/>
                 <td></td>
                 <td></td>
              </tr>
