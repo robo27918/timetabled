@@ -129,7 +129,7 @@ const Calendar = () => {
              <tr>
                 <td className="time">6 PM</td>
                 <td></td>
-                <td></td>
+                <Event event={"Chapultepec Castle"} color={"lightpurple"}/>
                 <td></td>
                 <td></td>
                 <td></td>
